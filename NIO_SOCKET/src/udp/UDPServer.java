@@ -13,5 +13,6 @@ public class UDPServer{
         DatagramPacket datagramPacket = new DatagramPacket(data,data.length);
         datagramSocket.receive(datagramPacket);
         System.out.println(new String(datagramPacket.getData(),0,datagramPacket.getLength()));
+        datagramSocket.close();
     }
 }
