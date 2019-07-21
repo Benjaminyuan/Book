@@ -132,4 +132,7 @@
     ```
 ### DatagramSocket
 * API
-* 
+    ```java
+    public synchronized void receive(DatagramPacket data);
+    public void sent(DatagramPacket data)
+    ```
