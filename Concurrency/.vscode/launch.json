@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MultiAdd",
+            "request": "launch",
+            "mainClass": "jmm.MultiAdd",
+            "projectName": "Concurrency_4d944433"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MultiAdd",
+            "request": "launch",
+            "mainClass": "MultiAdd"
+        }
+    ]
+}
