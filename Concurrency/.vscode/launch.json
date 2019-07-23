@@ -2,6 +2,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SafeCounter",
+            "request": "launch",
+            "mainClass": "principle.SafeCounter"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SafeCounter",
+            "request": "launch",
+            "mainClass": "SafeCounter"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MultiAdd",
             "request": "launch",
             "mainClass": "jmm.MultiAdd",
